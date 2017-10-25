@@ -6,8 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/call',(req,res,next)=>{
-  res.send('call detected');
-});
-
 module.exports = router;
